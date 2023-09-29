@@ -100,7 +100,7 @@ header {
 }
 
 .avez_main_image img {
-  max-height: auto;
+  /*max-height: auto;*/
   opacity: 0.9;
   filter: grayscale(1);
   width: 100%;
@@ -272,8 +272,8 @@ header {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 700px;
+  height: 700px;
 }
 
 .hero-banner-img {
@@ -324,6 +324,7 @@ header {
   width: 387px;
   height: 381px;
   text-decoration: none;
+  background-color: red;
 }
 
 @media screen and (max-width:1200px) {
@@ -773,7 +774,7 @@ li {
 }
 
 .exercise-card:hover {
-  transform: translateY(1.1) !important;
+  /*transform: translateY(1.1) !important;*/
   box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75);
   -webkit-box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75);
   -moz-box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75) !important;
@@ -855,7 +856,7 @@ input {
 }
 
 .detail-image {
-  border-radius: 57px;
+  border-radius: 60px;
 }
 
 .css-1yut5do {
@@ -909,63 +910,6 @@ input {
     width: 257px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1082,6 +1026,7 @@ li {
   border-radius: 18px;
 }
 
+
 .css-1yut5do {
   height: 100vh;
   text-align: center;
@@ -1089,6 +1034,7 @@ li {
 
 .subvideos {
   overflow-y: auto;
+
 }
 
 .mainGymDetail {

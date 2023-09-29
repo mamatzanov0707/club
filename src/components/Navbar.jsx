@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
+import logo from '../assets/icons/123.jpg'
 
 const Navbar = () => (
   <Stack direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="20px">
-    <Link className="logo" to="/">
-      <h1>FIT <span style={{ color: 'red' }}>CLUB</span></h1>
+    <Link className="logo" to="/" style={{display:"flex" , alignItems:'center'}}>
+        <img src={logo} alt="logo" style={{width:'60px' , height:'60px' , borderRadius:'50px'}}/>
+        <h1 style={{marginLeft:'15px'}}>FIT <span style={{ color: 'red' }}>CLUB</span></h1>
     </Link>
     <Stack
       direction="row"
